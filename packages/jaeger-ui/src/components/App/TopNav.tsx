@@ -132,7 +132,7 @@ export function TopNavImpl(props: Props) {
       <Menu theme="dark" mode="horizontal" selectable={false} selectedKeys={[pathname]}>
         <Menu.Item>
           <Link to={prefixUrl('/')} style={{ fontSize: '14px', fontWeight: 500 }}>
-            JAEGER UI
+            BAHADIR
           </Link>
         </Menu.Item>
         {NAV_LINKS.map(({ matches, to, text }) => {
